@@ -2,22 +2,9 @@
 
 #include	"CLevel.h"
 
-#include	"Managers/CWorldManager.h"
-#include	"Managers/CModelManager.h"
-
-
-#include	<tgCTextureManager.h>
-#include	<tgCDebugManager.h>
-#include	<tgCConstantBuffer.h>
-#include	<tgCVertexBuffer.h>
-#include	<tgCShader.h>
-#include	<tgCShaderManager.h>
-#include	<tgError.h>
-#include	<tgCD3D11.h>
-#include	"GameStateMachine/CGameStates.h"
 #include	"PerlinNoise.h"
 
-
+//needs to disable the tengine system to use theese functions
 #include <tgMemoryDisable.h>
 #include	<vector>
 #include	<math.h>
